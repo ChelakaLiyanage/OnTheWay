@@ -22,6 +22,11 @@ export default function App() {
             </Text>
           </View>
           <CustomButton
+            title="Sign In"
+            handlePress={() => router.push("/sign-in")}
+            containerStyles="w-full mt-10"
+          />
+          <CustomButton
             title="Continue with Email"
             handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-10"
